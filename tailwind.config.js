@@ -7,5 +7,4 @@ module.exports = {
       futura: ["Futura", "sans-serif"],
     },
   },
-  plugins: [],
 };
