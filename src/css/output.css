@@ -632,56 +632,16 @@ html {
   width: 100px;
 }
 
+.w-\[12rem\] {
+  width: 12rem;
+}
+
 .w-\[19px\] {
   width: 19px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[12px\] {
-  width: 12px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[1px\] {
-  width: 1px;
-}
-
-.w-\[px\] {
-  width: px;
-}
-
-.w-\[20rem\] {
-  width: 20rem;
-}
-
-.w-\[2rem\] {
-  width: 2rem;
-}
-
-.w-\[15rem\] {
-  width: 15rem;
-}
-
-.w-\[12rem\] {
-  width: 12rem;
-}
-
-.w-\[1rem\] {
-  width: 1rem;
-}
-
-.w-\[10rem\] {
-  width: 10rem;
-}
-
-.w-\[11rem\] {
-  width: 11rem;
 }
 
 .max-w-\[1880px\] {
@@ -826,16 +786,6 @@ html {
   padding-bottom: 23px;
 }
 
-.px-\[55px\] {
-  padding-left: 55px;
-  padding-right: 55px;
-}
-
-.px-\[5px\] {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
 .pb-\[6px\] {
   padding-bottom: 6px;
 }
@@ -870,6 +820,11 @@ html {
 
 .text-\[8px\] {
   font-size: 8px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-\[700\] {
@@ -927,6 +882,10 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .no-underline {
   text-decoration-line: none;
 }
@@ -949,16 +908,6 @@ html {
 .after\:top-0::after {
   content: var(--tw-content);
   top: 0px;
-}
-
-.after\:bottom-\[px\]::after {
-  content: var(--tw-content);
-  bottom: px;
-}
-
-.after\:bottom-\[5px\]::after {
-  content: var(--tw-content);
-  bottom: 5px;
 }
 
 .after\:h-\[1px\]::after {
@@ -1027,34 +976,14 @@ html {
   transition-duration: 700ms;
 }
 
-.after\:ease-\[cubic-bezier\(0\.19\2c 1\2c 0\.22\2c 1\)\]::after {
-  content: var(--tw-content);
-  transition-timing-function: cubic-bezier(0.19,1,0.22,1);
-}
-
-.after\:ease-\[cubic-bezier\(\)\]::after {
-  content: var(--tw-content);
-  transition-timing-function: cubic-bezier();
-}
-
-.after\:ease-\[cubic-bezier\(\.19xpx\)\]::after {
-  content: var(--tw-content);
-  transition-timing-function: cubic-bezier(.19xpx);
-}
-
-.after\:ease-\[cubic-bezier\(\.19px\)\]::after {
-  content: var(--tw-content);
-  transition-timing-function: cubic-bezier(.19px);
-}
-
-.after\:ease-\[cubic-bezier\(\.19\2c 1\2c \)\]::after {
-  content: var(--tw-content);
-  transition-timing-function: cubic-bezier(.19,1,);
-}
-
 .after\:ease-\[cubic-bezier\(\.19\2c 1\2c \.22\2c 1\)\]::after {
   content: var(--tw-content);
   transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+
+.after\:ease-\[cubic-bezier\(0\.19\2c 1\2c 0\.22\2c 1\)\]::after {
+  content: var(--tw-content);
+  transition-timing-function: cubic-bezier(0.19,1,0.22,1);
 }
 
 .after\:content-\[\'\'\]::after {
@@ -1062,18 +991,14 @@ html {
   content: var(--tw-content);
 }
 
-.hover\:text-\[\#ffffff\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\]:hover {
-  color: ;
-}
-
 .hover\:text-\[\#213875\]:hover {
   --tw-text-opacity: 1;
   color: rgb(33 56 117 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#ffffff\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:after\:w-\[100\%\]:hover::after {
