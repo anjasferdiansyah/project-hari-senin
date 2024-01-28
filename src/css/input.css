@@ -6,4 +6,13 @@
   html {
     font-family: "Futura PT", sans-serif;
   }
+
+  .scroller::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroller {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
