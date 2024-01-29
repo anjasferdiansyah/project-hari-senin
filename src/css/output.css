@@ -763,6 +763,10 @@ html {
   scroll-padding-right: 1rem;
 }
 
+.scroll-pl-12 {
+  scroll-padding-left: 3rem;
+}
+
 .auto-cols-\[100\%\] {
   grid-auto-columns: 100%;
 }
@@ -813,6 +817,10 @@ html {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-auto {
@@ -1480,6 +1488,10 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:scroll-pl-4:hover {
+  scroll-padding-left: 1rem;
+}
+
 .hover\:text-\[\#213775\]:hover {
   --tw-text-opacity: 1;
   color: rgb(33 55 117 / var(--tw-text-opacity));
@@ -1608,6 +1620,10 @@ html {
 
   .md\:auto-cols-\[30\%\] {
     grid-auto-columns: 30%;
+  }
+
+  .md\:auto-cols-\[32\%\] {
+    grid-auto-columns: 32%;
   }
 
   .md\:grid-cols-4 {
